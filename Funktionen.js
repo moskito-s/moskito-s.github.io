@@ -281,7 +281,6 @@ else{
 			redSum++;
 		}
 
-		//console.log(redSum/(canvas.width*canvas.height));
 		var arrayLengthH = dataArrayH.unshift(redSum/(canvas.width*canvas.height));
 
 		if(arrayLengthH > fps * dataWindowLength){ //array voll
